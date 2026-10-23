@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes color {
+    from {color: blue;}
+    to {color: red;}
+}
+
+.colour-rotate {
+    animation: color infinite;
+}
